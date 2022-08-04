@@ -1,0 +1,509 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+/* ---------------------
+
+/****** Navbar  ********/
+
+/* Logo */
+#navbar {
+    padding-bottom: 10px;
+}
+
+#logo,
+#menu {
+    display: inline-block;
+}
+
+#logo {
+    margin: 10px 0 0 200px;
+}
+
+#menu {
+    float: right;
+    margin-right: 80px;
+}
+
+#menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 25px 20px 0 0;
+
+}
+
+#menu li a {
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: #20292F;
+    transition: .3s linear;
+}
+
+#menu li a:hover {
+    color: #918B8C;
+}
+
+/********** Header ***************/
+
+#header {
+    height: 650px;
+    background-color: #A745F4;
+}
+
+.left,
+.right {
+    display: inline-block;
+    width: 49%;
+
+}
+
+.right {
+    float: right;
+}
+
+.right img {
+    width: 510px;
+    height: 510px;
+    margin-top: 140px;
+}
+
+.left {
+    margin-top: 135px;
+    color: white;
+}
+
+.left p {
+    margin-bottom: 30px;
+    font-size: 16px;
+
+    line-height: 28px;
+}
+
+.left div {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.left button {
+    width: 160px;
+    height: 45px;
+    background-color: #2B9CF2;
+    border-radius: 30px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ***************** ads ********************/
+#ads {
+    height: 250px;
+}
+
+#ads ul {
+    list-style-type: none;
+    float: left;
+    margin-top: 60px;
+}
+
+#ads ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+/************************* collaboration ******************/
+#collaboration {
+    padding-bottom: 100px;
+}
+
+#collaboration .f,
+.s {
+    width: 50%;
+    display: inline-block;
+}
+
+#collaboration .f h2 {
+    color: #333333;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+#collaboration .f p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #666670;
+    padding-right: 20px;
+}
+
+#collaboration .s {
+    float: right;
+}
+
+#collaboration .s img {
+    width: 510px;
+    height: 388px;
+}
+
+#collaboration .icons {
+    overflow: hidden;
+}
+
+#collaboration .icons .firsticon,
+.secondicon {
+    display: inline-block;
+    width: 49%;
+}
+
+#collaboration .f .icons .secondicon {
+    float: right;
+}
+
+#collaboration .f .icons img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#collaboration .f .icons h2,
+p {
+    font-size: 14px;
+}
+
+/******* collaboration2 *********/
+#collaboration2 {
+    padding-top: 50px;
+    background-color: #FAFAFC;
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+#collaboration2 .f,
+.s {
+    width: 50%;
+    display: inline-block;
+}
+
+#collaboration2 .s h2 {
+    color: #333333;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+#collaboration2 .s p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #666670;
+    padding-right: 20px;
+}
+
+#collaboration2 .s {
+    float: right;
+}
+
+#collaboration2 .f img {
+    width: 510px;
+    height: 388px;
+}
+
+#collaboration2 .icons {
+    overflow: hidden;
+}
+
+#collaboration2 .icons .firsticon,
+.secondicon {
+    display: inline-block;
+    width: 49%;
+}
+
+#collaboration2 .s .icons .secondicon {
+    float: left;
+}
+
+#collaboration2 .s .icons img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#collaboration2 .s .icons h2,
+p {
+    font-size: 14px;
+}
+
+
+/******* features *********/
+
+#features .head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#features .up div,
+.down div {
+    width: 33.33%;
+    float: left;
+
+}
+
+#features .head h2 {
+    margin: 50px 0 30px 0;
+    color: #333333;
+}
+
+#features .head p {
+    margin-bottom: 20px;
+    color: #6B6666;
+    line-height: 25px;
+}
+
+#features .up {
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+#features .down {
+    margin-bottom: 120px;
+    overflow: hidden;
+}
+
+#features .up .one div:first-child,
+#features .up .two div:first-child,
+#features .up .three div:first-child,
+#features .down .four div:first-child,
+#features .down .five div:first-child,
+#features .down .six div:first-child {
+    text-align: center;
+}
+
+#features .up .one div:last-child,
+#features .up .two div:last-child,
+#features .up .three div:last-child,
+#features .down .four div:last-child,
+#features .down .five div:last-child,
+#features .down .six div:last-child {
+    width: 60%;
+}
+
+#features .up img,
+.down img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+}
+
+#features .up h3,
+.down h3 {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #333339;
+    font-weight: 600;
+}
+
+#features .up p,
+.down p {
+    color: #6B6666;
+    line-height: 25px;
+}
+
+/******* Reviews *********/
+#reviews {
+    background-color: #FAFAFC;
+}
+
+#reviews .headrev {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+#reviews .headrev h2 {
+    margin: 50px 0 30px 0;
+    color: #333333;
+}
+
+#reviews .headrev p {
+    margin-bottom: 50px;
+    color: #6B6666;
+    line-height: 25px;
+}
+
+#reviews .downrev > div {
+    display: inline-block;
+    width: 25%;
+    background-color: white;
+    padding: 30px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+#reviews .downrev .fa,
+.sa,
+.ta {
+    box-shadow: 5px 5px 10px #B9B8B9
+}
+
+#reviews .downrev div p {
+    margin-bottom: 50px;
+    line-height: 25px;
+    color: #6B6666;
+}
+
+#reviews .downrev div h3 {
+    font-size: 14px;
+    color: #66667F;
+    margin-bottom: 5px;
+}
+
+#reviews .downrev div span {
+    font-size: 13px;
+    color: #6B6666;
+}
+
+#reviews .bu {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#reviews .bu button {
+    margin: 50px;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid #E5E5E5;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+
+#reviews .bu button a {
+    text-decoration: none;
+    color: #6A5AFF;
+    font-weight: 500;
+}
+
+/******* Downloads *********/
+
+#download {
+    background-image: linear-gradient(to right, #953BF9, #C152ED);
+    height: 600px;
+}
+
+#download .l,
+.r {
+    width: 50%;
+    float: left;
+}
+
+#download .r img {
+    height: 500px;
+    margin-top: 100px;
+}
+
+#download .l {
+    margin-top: 200px;
+    color: white
+}
+
+#download .l p {
+    margin: 50px 0;
+    width: 80%;
+    line-height: 28px;
+}
+
+#download .l button {
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white
+}
+
+
+/******* subscribe *********/
+
+#sub {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+#sub h2 {
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+#sub input[type="text"],
+input[type="email"] {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    text-indent: 20px;
+    letter-spacing: 1px;
+}
+
+#sub button {
+    margin-bottom: 30px;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #2B9CF2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#sub p {
+    color: #667A7A;
+}
+
+/******* Footer *********/
+
+#footer {
+    background-color: #171717;
+    color: #667A7A;
+    overflow: hidden;
+    height: 30px;
+    padding: 10px;
+
+}
+
+#footer p {
+    display: inline-block;
+    font-size: 20px;
+}
+
+#footer ul {
+    float: right;
+    list-style-type: none;
+
+
+}
+
+#footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#footer ul li img {
+    width: 30px;
+    height: 30px;
+}

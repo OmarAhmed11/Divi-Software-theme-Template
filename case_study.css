@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+}
+#navbar {
+  padding-bottom: 10px;
+}
+#logo, #menu {
+ display: inline-block;
+}
+#logo {
+  margin:10px 0 0 200px;
+}
+
+#menu {
+  float: right;
+  margin-right: 80px;
+}
+#menu li {
+  display: inline-block;
+  list-style-type: none;
+  margin:25px 20px 0 0;
+  font-size: 18px;
+  
+}
+
+#menu li a {
+  text-decoration: none;
+  padding-bottom:10px ;
+  color:#20292F;
+  transition: .3s linear;
+
+}
+#menu li a:hover {
+  color: #918B8C;
+}
+
+.part1 {
+  width: 100%;
+  height: 500px;
+  background-color: #be51ee;
+  position: relative;
+}
+.part1 .part1-left-content {
+  width: 340px;
+  height: 350px;
+  position: absolute;
+  top: 50px;
+  left: 120px;
+  color: white;
+  opacity: 90%;
+}
+.part1-left-content h4 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 35px;
+}
+.part1-left-content h1 {
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 36px;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+}
+.part1 .float-window {
+  width: 370px;
+  height: 430px;
+  background-color: white;
+  border: 1px solid white;
+  position: absolute;
+  top: 50px;
+  left: 651px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.float-window pre {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.float-window p {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.float-window div p {
+  line-height: 1.2;
+  font-size: 18px;
+}
+.float-window p span {
+  opacity: 85%;
+}
+.float-window button {
+  margin-left: 20px;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+  background-color: #6a5aff;
+}
+
+.part2 {
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  position: relative;
+}
+.part2 .part2-content {
+  width: 400px;
+  height: 500px;
+
+  position: absolute;
+  top: 100px;
+  left: 120px;
+  padding-top: 20px;
+}
+
+.part2 .part2-content h1 {
+  margin-bottom: 30px;
+}
+.part2 .part2-content p {
+  font-size: 18px;
+  opacity: 85%;
+}
+.part2 .part2-img {
+  position: absolute;
+  left: 500px;
+  top: 200px;
+}
+.part2 .part2-img img {
+  width: 550px;
+}
+
+.part3 {
+  width: 100%;
+  height: 750px;
+  background-color: #be51ee;
+  text-align: center;
+  position: relative;
+}
+.part3 img {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.part3 p {
+  color: white;
+  font-size: 20px;
+  width: 300px;
+  position: relative;
+  left: 38%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+
+.part3 strong {
+  color: white;
+  font-size: 30px;
+  margin-top: 40px;
+  padding-left: 13px;
+}
+.part3 pre {
+  color: white;
+  font-size: 23px;
+  margin-top: 40px;
+  padding-left: 13px;
+}
+
+.part4 {
+  width: 100%;
+  height: 1600px;
+  background-color: white;
+  position: relative;
+}
+.part4 div {
+  position: absolute;
+  width: 48%;
+  left: 2%;
+  top: 150px;
+}
+.part4 div h1 {
+  margin-top: 20px;
+  font-size: 40px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  opacity: 85%;
+}
+.part4 div p {
+  width: 500px;
+  padding-top: 20px;
+  line-height: 1.6;
+  padding-left: 10px;
+  font-size: 25px;
+  opacity: 80%;
+}
+.part4 .first-sec {
+  padding-right: 10px;
+}
+.part4 .second-sec {
+  position: absolute;
+  left: 50%;
+  padding-left: 10px;
+}
+
+.part4 .result-div {
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  width: 700px;
+  text-align: center;
+}
+.part4 .result-div p {
+  width: 690px;
+}
+
+.more-part4 {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+}
+.more-part4 h1,
+.more-part4 p {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.more-part4 img {
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.download-part {
+  width: 100%;
+  height: 450px;
+  background-color: #be51ee;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+.download-part h1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.download-part button {
+  margin-top: 40px;
+  height: 70px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background-color: #be51ee;
+  color: white;
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+.download-part button:hover {
+  background-color: rgb(195, 167, 167);
+  border: 0px;
+}
+
+.subscribe-part {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+.subscribe-part div {
+  margin-top: 30px;
+}
+.subscribe-part div input {
+  height: 45px;
+  width: 400px;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 5px;
+}
+.subscribe-part div .submit-btn {
+  background-color: #2b9cf2;
+  height: 55px;
+}
+.subscribe-part div p {
+  color: #5a5c4c;
+}
+
+.footer-part {
+  width: 100%;
+  height: 40px;
+  background-color: #171717;
+  padding-top: 7px;
+  position: relative;
+}
+.footer-part p {
+  margin-top: 9px;
+  margin-left: 12%;
+  font-size: 15px;
+  color: #5a5c4c;
+  transition: 0.5s color;
+}
+.footer-part p strong:hover {
+  color: #494b3f;
+}
+.footer-part .fb {
+  width: 30px;
+  position: absolute;
+  right: 230px;
+}
+
+.footer-part .twtr {
+  width: 30px;
+  position: absolute;
+  right: 180px;
+}
+
+.footer-part .rss {
+  width: 30px;
+  position: absolute;
+  right: 130px;
+}
